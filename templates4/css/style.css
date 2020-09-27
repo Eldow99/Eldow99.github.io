@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+     /* background-color: #EEEFF1; */
+     text-decoration: none;
+     list-style-type: none;
+} 
+a{
+    color: white;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    border: none;
+}
+.backgroundMain{
+
+    background-image: url(https://s3-alpha-sig.figma.com/img/fd76/a69b/0746f16a225bfa607b82c9ce1286212a?Expires=1601856000&Signature=MCdeT-PcrPrEPZSZpsvTN~5wTA57Rtuevw2DUTB8-KMZpbqjVMsM-cuz7hgdaV2YEn-ZSUdWVcUgSiPWYo31SqzYu0lKqL6M3wiw4GBIUxQ1re~udPfSTLpIJjZW2XW9pGShzons1srSZgKp5pG6ItBChablqD-0tYRnADIo6Tn8tqjPIhTK3Rf7uJgP8WrnQisnizVu7Q2TX0mCvbHdjLe0XmSuq25snnq62vxsThpCEsGSwLAG-6SkikRavJ0S9y5gM86sLn1piyPsP0DAnaEyOmfrRSnqC3nZis1WYQbX4xCvmnMByLO4dIN69aDiUfHFS8aSn~L5cHV67DGxoA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    color: white;
+    padding-bottom: 300px;
+}
+button{
+    cursor: pointer;
+    background: #4985FF;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 30px;
+width: 200px;
+height: 45px;
+color: white;
+}
+
+.header{
+    display: flex;
+    font-family: montserrat;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.headerLine{
+    opacity: 0.5;
+border: 1px solid #A1A1A1;
+}
+.header ul{
+    color: white;
+    display: flex;
+}
+
+.header li{
+    cursor: pointer;
+    padding-bottom: 30px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.header a :hover{
+    
+    border-bottom: 2px solid white;
+}
+.main{
+    padding-top: 219px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.main h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+text-align: center;
+padding-bottom: 50px;
+}
+.sectionCreate{
+    padding-top: 100px;
+    margin: 0 15% 0 15%;
+    padding-bottom: 50px;
+}
+.sectionCreateText{
+    text-align: center;
+}
+.sectionCreateText h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+}
+.sectionCreateText p{
+    padding-top: 30px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #999999;
+}
+.sectionCreateWithButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionCreateButton{
+    padding-top: 30px;
+}
+.sectionCreateBlocks{
+    display: flex;
+    padding-top: 50px;
+}
+.sectionCreateBlocks p{
+    color: #999999;
+}
+.sectionCreateBlocks1{
+    display: flex;
+    align-items: center;
+}
+.sectionCreateBlocks1 h2 p{
+    display: flex;
+    flex-direction: column;
+}
+.sectionCreateBlocks1{
+    display: flex;
+    align-items: center;
+}
+.sectionCreateBlocks1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sectionStandartBackground{
+    background:#F6F6F8;
+    padding-top: 50px;
+}
+.sectionStandart{
+    display: flex;
+    align-items: center;
+    margin: 0 15% 0 15%;
+    border-bottom   : 1px solid #E0E0E0;
+    
+}
+.sectionStandartText{
+    width: fit-content;
+}
+.sectionStandartImg{
+width: 520px;
+height: 420px;
+}
+
+.sectionStandartText h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+padding-bottom: 20px;
+}
+.sectionStandartText p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+color: #999999;
+padding-bottom: 20px;
+}
+.sectionStandartIcon{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.sectionStandartIcon img{
+   padding-left: 50px;
+}
+.sectionSpec{
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.sectionSpecContent{
+    margin: 0 15% 0 15%;
+}
+
+.sectionSpecText{
+    color: white;   
+    padding-top: 40px;
+    /* background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4; */
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+    justify-content: space-around;
+}
+.sectionSpecBlocks{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-top: -200px;
+    border-bottom: 1px solid lightgrey;
+}
+.sectionSpecBlocks1Img{
+    width: 150px;
+
+}
+.sectionSpecBlocks1{
+    /* width: 250px; */
+    padding-left: 20px;
+    margin-bottom: -350px;
+}
+.sectionSpec h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+/* font-size: 36px; */
+}
+.sectionSpec h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
+.sectionSpecBlocks1 p{
+    font-family: Montserrat;
+    padding: 20px 0 20px 0;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+}
+.sectionSpecBlocks1 a{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #4985FF;
+}
+.sectionProject{
+    padding-top: 400px;
+    background: #F6F6F8;
+    padding-bottom: 120px;
+}
+
+.sectionProjectText{
+    text-align: center;
+    margin: 0 15% 0 15% ;
+}
+.sectionProjectText h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+padding-bottom: 40px;
+}
+.sectionProjectText p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #999999;
+}
+
+.sectionProjectImg{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.sectionProjectImg img{
+    padding-left: 20px;
+}
+.sectionProjectButton{
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+.sectionVideo{
+    text-align: center;
+    color: white;
+    height: 370px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/fd76/a69b/0746f16a225bfa607b82c9ce1286212a?Expires=1601856000&Signature=MCdeT-PcrPrEPZSZpsvTN~5wTA57Rtuevw2DUTB8-KMZpbqjVMsM-cuz7hgdaV2YEn-ZSUdWVcUgSiPWYo31SqzYu0lKqL6M3wiw4GBIUxQ1re~udPfSTLpIJjZW2XW9pGShzons1srSZgKp5pG6ItBChablqD-0tYRnADIo6Tn8tqjPIhTK3Rf7uJgP8WrnQisnizVu7Q2TX0mCvbHdjLe0XmSuq25snnq62vxsThpCEsGSwLAG-6SkikRavJ0S9y5gM86sLn1piyPsP0DAnaEyOmfrRSnqC3nZis1WYQbX4xCvmnMByLO4dIN69aDiUfHFS8aSn~L5cHV67DGxoA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sectionVideoText h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+}
+.sectionVideoText p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+}
+.sectionVideoImg{
+width: 600px;
+/* text-align: center  ; */
+   justify-content: center;
+   margin-bottom: -200px;
+}
+.lineVideo{
+    opacity: 0.5;
+    border: 1px solid #E0E0E0;
+}
+.signButton{
+    border-radius: 0px 30px 30px 0px;
+}
+form{
+
+background: #FFFFFF;
+
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+border-radius: 30px;
+}
+.sectionSign{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionSign p{
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+
+/* grey */
+
+color: #999999;
+}
+.sectionSign :nth-child(4){
+    padding-top:20px ;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+
+/* grey */
+
+color: #999999;
+}
+.sectionSign input{
+padding-left: 20px;
+padding-top: -20px;
+}
+.sectionSign input button{
+padding-bottom: 20px;
+}
+
+.footer{
+    padding-top: 100px;
+    background: #F6F6F8;
+}
+
+.footerBlocks{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.footerBlock h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+}
+.footerBlock li{
+    cursor: pointer;
+    padding-top: 8px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+
+/* grey */
+
+color: #999999;
+}
+.lineFooter{
+    border: 1px solid #E0E0E0;
+
+}
+.footer p{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 21px;
+text-align: center;
+
+/* grey */
+
+color: #999999;
+}
+
+@media screen and (max-width:1100px){
+    .sectionSpecBlocks1 h2{
+
+    }
+    .main h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:884px){
+    
+    .sectionSpecBlocks1 h2{
+        font-size: 20px;
+    }
+    .sectionSpecBlocks1 p{
+        font-size: 15px;
+    }
+    .sectionSpecBlocks1{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .sectionSpecBlocks{
+        padding: 0;
+        padding-top: 30px;
+       flex-wrap: wrap;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+    .sectionVideoText{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:680px){
+    .sectionCreateBlocks{
+        flex-wrap: wrap;
+    }
+    .sectionSpecBlocks1{
+        padding-top: 20px;
+    }
+    .sectionProject{
+        padding-top: 100px;
+    }
+    .sectionProjectImg{
+        
+        flex-wrap: wrap;
+    }
+    .sectionProjectImg img{
+        padding: 15px 15px 15px 15px;
+    }
+    .sectionVideoText h2{
+        font-size: 20px;
+    }
+    .sectionVideoText p{
+        font-size: 12px;
+    }
+    .sectionVideoImg{
+        padding-top: 50px;
+        width: 300px;
+    }
+    .footerBlocks{
+        flex-wrap: wrap;
+    }
+    .footerBlock h3{
+        font-size: 13px;
+    }
+    .footerBlock li{
+        font-size: 9px;
+    }
+    .header ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .sectionCreateText h2{
+        font-size: 20px;
+    }
+    .sectionCreateText p{
+        font-size: 10px;
+    }
+    .signButton{
+        width: 100px;
+    }
+    .sectionSpecBlocks1{
+        padding-top: 20px;
+    }
+    .sectionSign h2{
+        text-align: center;
+    }
+}
+@media screen and(max-width:500px){
+  .sectionSpecBlocks1{
+      padding-top: 20px;
+  }
+}

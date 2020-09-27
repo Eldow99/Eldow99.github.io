@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+     /* background-color: #EEEFF1; */
+     text-decoration: none;
+} 
+body, html{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+ /* .header .main{
+     margin: 0 15% 0 15%;
+ } */
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: #EEEFF1;
+}
+.logo h1{
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+color: #34547A;
+cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+.burger{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar li{ 
+    list-style-type: none;
+cursor: pointer;
+color: black;
+font-family:  Roboto;
+padding-left: 15px;
+}
+.navbar ul{
+    display: flex;
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 10% 15%;
+    background: #EEEFF1;
+}
+.logoMain img{
+    width: 357px;
+    height: 234px;
+}
+.mainText{
+    padding-left: 100px;
+}
+
+.mainText h2{
+    font-family: roboto;
+}
+.mainText p{
+    padding-top: 30px;
+    color: #727272;
+}
+.mainText button{
+    margin-top: 30px;
+    background: #34547A;
+    color: white;
+    width: 222px;
+    height: 65px;
+}
+
+.about{
+    padding-top: 100px;
+    background-color: white;
+}
+.aboutText{
+    margin: 0 30% 0 30%;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: roboto;
+}
+.aboutImg{
+    background: #34547A;
+    padding-top: 50px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 15% 0 15%; */
+}
+.aboutImg img{
+    width: 141px;
+height: 50px;
+}
+
+.skills{
+    padding-top: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 0 15% 0 15%; */
+    background: #E5E5E5;
+}
+.skillsLine{
+    height: 2px;
+    max-width: 400px;
+    background-color: #c4c4c4;
+    width: 70%;
+
+}
+.skillsLine div{
+    width: 70%;
+    background-color: #34547A;
+    height: 2px;
+}
+.skillsLeft{
+    width: 500px;
+}
+.skillsRight{
+    width: 500px;
+    height: 400px
+}
+.skillsRight img{
+    width: 100%;
+    height: 100%
+}
+
+.howWorkText{
+    margin: 0 30% 0 30%;
+    text-align: center;
+    font-family: roboto;
+}
+.howWorkImg{
+    width: 800px;
+    height: 440px;
+    padding-top: 30px;
+}
+.howWorkImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.howWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEEFF1;
+    padding-bottom: 10%;
+}
+
+
+.blocksImage{
+    padding-top: 5%;
+}
+.blocksImage img{
+    width: 100%;
+    height: 100%;
+}
+.image1{
+    width: 450px;
+    height: 374px;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+.line1{
+    display: flex;
+}
+.imageFill{
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8))
+}
+
+.line2{
+    display: flex;
+}
+.microsoft{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+}
+.microsoft img{
+    width: 100%;
+    height: 100%;
+}
+.microsoft1{
+    width: 290px;
+    height: 93px;
+}
+
+.contacts{
+    padding-top: 50px;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEFF1;
+    padding-bottom: 10%;
+}
+.contactsInp{
+    padding-top: 60px;
+}
+.contactsText{
+    text-align: center;
+}
+.contactsText p{
+    padding-top: 30px;
+    color: #727272;
+    margin: 0 30% 0 30%;
+}
+
+.inp1{
+    width: 255px;
+    height: 45px;
+}
+.inp1 input{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+}
+.inpName{
+    display: flex;
+    justify-content: space-around;
+}
+.inpName :nth-child(2){
+    padding-left: 20px;
+}
+.inpMessage{
+    /* width: 540px;
+    height: 175px; */
+    padding-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inpMessage input{
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    height: 100%;
+}
+.inpButton{
+    width: 190px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.inpButton button{
+    width: 100%;
+    height: 100%;
+    background: #34547A;
+    color: white;
+    text-align: center;  
+}
+.footer{
+    background-color: #34547A;
+}
+.footer1{
+    margin: 0 10% 0 10%;
+    color: white;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width:840px){
+    .container{
+        margin: 0 auto;
+    }
+    .aboutImg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .burger{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .mainText{
+        text-align: center;
+        padding-left: 0;
+    }
+    .mainText button{
+        width: 100px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .howWorkImg{
+        width: 70%;
+        height: 70%;
+    }
+    .logoMain img{
+        width: 290px;
+        height: 150px;
+    }
+
+    .line1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .line2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .inp1{
+        width: 200px;
+        height: 30px;
+    }
+    .inpMessage{
+        width: 450px;
+    }
+    .microsoft1{
+        width: 150px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width:680px){
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       align-items: center;
+    }
+    .logoMain img{
+        width: 200px;
+    }
+    .mainText{
+        text-align: center;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width:500px){
+    .mainText button{
+        width: 100px;
+    }
+    .inpName :nth-child(2){
+        padding-left: 0px;
+    }
+    .burger {
+        width: 32px;
+        height: 32px;
+    }
+    .logo h1{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .microsoft1{
+        width: 100px;
+        height: 30px;
+    }
+    .inpName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .inp1{
+        width: 100px;
+        height: 30px;
+        padding-top: 20px;
+        
+    }
+    .inpMessage{
+        width: 250px;
+        
+    }
+    .aboutText{
+        margin: 0 0 0 0;
+    }
+    .skills{
+        padding-top: 0px;
+    }
+    .main{
+        display: flex;
+       flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .mainText{
+        text-align: center;
+        padding-left: 0;
+    }
+    .header{
+        height:auto ;
+    }
+   
+}
+
+@media screen and (max-width:282px){
+    .aboutImg{
+        height: 500px;
+    }
+    .skills{
+      padding-top: 0;
+    }
+}
