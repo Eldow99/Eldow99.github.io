@@ -244,10 +244,6 @@ margin: 15px 0 15px 0;
 }
 .section5__video:nth-child(2):hover{
 cursor: pointer;
-position: absolute;
-left: 50%;
-top:50%;
-transform: translate(-50%, -50%);
 }
 .section5__video :first-child{
     width: 100%;
@@ -461,5 +457,12 @@ align-items: center;
     }
     .section6 {
         margin-top: 100px;
+    }
+    .section3__subtitle{
+        font-size: 18px;
+    }
+    .section__img{
+        width: 150px;
+        height: 300px;
     }
 }
